@@ -1,0 +1,14 @@
+.title {
+    padding-bottom: 16px;
+    color: var(--corTitle);
+}
+
+.sobre {
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.imgImc {
+    width: 90%;
+    max-width: 384px;
+}

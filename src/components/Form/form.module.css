@@ -1,0 +1,57 @@
+.form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+.form input::-webkit-inner-spin-button{
+    appearance: none; 
+}
+
+.form button:hover, input:hover {
+    box-shadow: 0 0 8px var(--corTitle);
+}
+
+.title {
+    padding-bottom: 16px;
+    color: var(--corTitle);
+}
+
+.campoPeso, .campoAltura {
+    outline: none;
+    border: transparent;
+    border: solid 1px var(--corTexto);
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid var(--corTexto);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.res {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+    p {
+        color: #fff;
+    }
+}

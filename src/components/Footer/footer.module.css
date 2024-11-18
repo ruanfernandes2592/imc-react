@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 64px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    p {
+        margin-bottom: -8px;
+        span {
+            color: #6ec1e4;
+        }
+        img {
+            width: 24px;
+            margin-bottom: -6px;
+        }
+    }
+}
